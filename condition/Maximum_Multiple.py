@@ -8,9 +8,9 @@ for number in range(1, boundary + 1):
 
 print(target)
 
-# when is 2 we got target to every 2 as example 2,7 we have in the loops 2,4,6 an we print the last largest number
-# with divisor we decide with which want we will divisor so we divisor on by 2
-# next one is with 10, 50 we devide every 10. so we have fist 10 then 20,30,40 till 50 and the last one is 50
+# when is 2 we got target to every 2 as example 2,7 we have in the loops 2,4,6and we print the last largest number
+# with divisor we decide with which one we will divisor so we divisor on by 2
+# next one is with 10, 50 we divide every 10. so we have fist 10 then 20,30,40 till 50 and the last one is 50
 
 # On the first line, you will be given a positive number, which will serve as a divisor.
 # On the second line, you will receive a positive number that will be the boundary.
@@ -18,4 +18,4 @@ print(target)
 # •	divisible by the given divisor
 # •	less than or equal to the given bound
 # •	greater than 0
-# Note: it is guaranteed that N is found.
+# Note:it is guaranteed that N is found.
