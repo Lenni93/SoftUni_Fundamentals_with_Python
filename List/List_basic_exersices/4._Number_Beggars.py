@@ -1,14 +1,17 @@
-first_line = input().split(",")
-beggars = int(input())
-
-first_line = [int(first_line[i]) for i in range(len(first_line))]
-beggar_total = []
-
-for beggar in range(beggars):
-    beggar_sum = []
-    for index in range(beggar, len(first_line), beggars):
-        beggar_sum.append(first_line[index])
-    temp_sum = sum(beggar_sum)
-    beggar_total.append(temp_sum)
-
-print(beggar_total)
+money_as_string = input().split(", ")
+numbers_of_beggar = int(input())
+money_as_integer = []
+for current_money in money_as_string:
+    money_as_integer.append(int(current_money))
+final_sum = []
+start_index = 0
+while start_index < numbers_of_beggar:
+    current_beggar_sum = 0
+    for current_index in range(start_index, len(money_as_string), numbers_of_beggar):
+        current_beggar_sum += money_as_integer[current_index]
+    final_sum.append(current_beggar_sum)
+    start_index += 1
+print(final_sum)
+# 100, 94, 24, 99
+# 2
+# [124, 193]
