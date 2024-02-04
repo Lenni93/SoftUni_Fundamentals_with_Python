@@ -19,3 +19,6 @@ print(if_number_is_perfect(number))
 # That is the sum of its positive divisors, excluding the number itself (also known as its aliquot sum).
 # input is 6 so n in range by 1 is in loops and count 6 times by 1, in conditions is checking the module of 6 and iterated
 # number and is counting as a 1 + 2 + 3 and then is chekcing is equal or not if is it is perfect if not is not perfect
+# same is with 28 it is perfect 1 + 2 + 4 + 7 + 14 and then more 14 is count by one with loops and conditon when n % i == 0
+# so till is not equal to 0 is countinue iterate till 28 and then is equal both numbers to 0 and is turn to condidion
+# check_number = number
